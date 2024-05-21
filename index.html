@@ -3,61 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eyewear Shop</title>
+    <title>Omar Optometrist</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Welcome to Our Eyewear Shop</h1>
+            <div class="logo">
+                <h1>Omar Optometrist</h1>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
                     <li><a href="#products">Products</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section id="home">
+
+    <section id="home" class="hero">
         <div class="container">
-            <h2>About Us</h2>
-            <p>We offer a wide range of eyewear products to suit your style and needs. Our collection features the latest trends and timeless classics, ensuring you find the perfect pair of glasses.</p>
+            <h2>Your Vision, Our Focus</h2>
+            <p>Discover the best eyewear collections to suit your style and vision needs.</p>
+            <a href="#products" class="btn">Shop Now</a>
         </div>
     </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Eye Exams</h3>
+                <p>Comprehensive eye exams to ensure your eyes are healthy and your vision is perfect.</p>
+            </div>
+            <div class="service-item">
+                <h3>Prescription Glasses</h3>
+                <p>Wide range of stylish prescription glasses to meet your vision requirements.</p>
+            </div>
+            <div class="service-item">
+                <h3>Contact Lenses</h3>
+                <p>Comfortable and convenient contact lenses for all types of vision corrections.</p>
+            </div>
+        </div>
+    </section>
+
     <section id="products">
         <div class="container">
             <h2>Our Products</h2>
-            <div class="product-grid">
-                <div class="product">
-                    <img src="https://images.unsplash.com/photo-1512873752670-a3777e838dd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Eyeglasses">
-                    <h3>Modern Eyeglasses</h3>
-                    <p>Stylish and modern eyeglasses to complement any outfit.</p>
+            <div class="product-gallery">
+                <div class="product-item">
+                    <img src="images/glasses1.jpg" alt="Glasses 1">
+                    <h3>Classic Glasses</h3>
+                    <p>$99.99</p>
                 </div>
-                <div class="product">
-                    <img src="https://images.unsplash.com/photo-1585386959984-a415522c5003?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Sunglasses">
-                    <h3>Trendy Sunglasses</h3>
-                    <p>Protect your eyes with our trendy sunglasses.</p>
+                <div class="product-item">
+                    <img src="images/glasses2.jpg" alt="Glasses 2">
+                    <h3>Modern Frames</h3>
+                    <p>$129.99</p>
                 </div>
-                <div class="product">
-                    <img src="https://images.unsplash.com/photo-1525879000488-3f7899e6af2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Vintage Glasses">
-                    <h3>Vintage Glasses</h3>
-                    <p>Classic and timeless vintage glasses for a retro look.</p>
+                <div class="product-item">
+                    <img src="images/glasses3.jpg" alt="Glasses 3">
+                    <h3>Sun Protection</h3>
+                    <p>$149.99</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Omar Optometrist, we are dedicated to providing the best eye care services and products. Our experienced staff is here to help you find the perfect eyewear to match your style and needs.</p>
+        </div>
+    </section>
+
     <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
-            <p>Phone: <a href="tel:123-456-7890">123-456-7890</a></p>
-            <p>Address: 123 Eyewear St, Vision City, VC 12345</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
         </div>
     </section>
+
     <footer>
         <div class="container">
-            <p>&copy; 2024 Eyewear Shop. All rights reserved.</p>
+            <p>&copy; 2024 Omar Optometrist. All rights reserved.</p>
         </div>
     </footer>
 </body>

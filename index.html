@@ -14,11 +14,11 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -28,7 +28,73 @@
         <div class="container">
             <h2>Your Vision, Our Focus</h2>
             <p>Discover the best eyewear collections to suit your style and vision needs.</p>
-            <a href="products.html" class="btn">Shop Now</a>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Eye Exams</h3>
+                <p>Comprehensive eye exams to ensure your eyes are healthy and your vision is perfect.</p>
+            </div>
+            <div class="service-item">
+                <h3>Prescription Glasses</h3>
+                <p>Wide range of stylish prescription glasses to meet your vision requirements.</p>
+            </div>
+            <div class="service-item">
+                <h3>Contact Lenses</h3>
+                <p>Comfortable and convenient contact lenses for all types of vision corrections.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-gallery">
+                <div class="product-item">
+                    <img src="images/glasses1.jpg" alt="Glasses 1">
+                    <h3>Classic Glasses</h3>
+                    <p>$99.99</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/glasses2.jpg" alt="Glasses 2">
+                    <h3>Modern Frames</h3>
+                    <p>$129.99</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/glasses3.jpg" alt="Glasses 3">
+                    <h3>Sun Protection</h3>
+                    <p>$149.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Omar Optometrist, we are dedicated to providing the best eye care services and products. Our experienced staff is here to help you find the perfect eyewear to match your style and needs.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
         </div>
     </section>
 

@@ -8,33 +8,53 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Our Eyewear Shop</h1>
+        <div class="container">
+            <h1>Welcome to Our Eyewear Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
     <section id="home">
-        <h2>About Us</h2>
-        <p>We offer a wide range of eyewear products to suit your style and needs.</p>
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We offer a wide range of eyewear products to suit your style and needs. Our collection features the latest trends and timeless classics, ensuring you find the perfect pair of glasses.</p>
+        </div>
     </section>
     <section id="products">
-        <h2>Our Products</h2>
-        <div class="product">
-            <img src="path/to/image.jpg" alt="Product Name">
-            <p>Product description goes here.</p>
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="path/to/image1.jpg" alt="Product Name">
+                    <h3>Product Name</h3>
+                    <p>Product description goes here.</p>
+                </div>
+                <div class="product">
+                    <img src="path/to/image2.jpg" alt="Product Name">
+                    <h3>Product Name</h3>
+                    <p>Product description goes here.</p>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
         </div>
     </section>
     <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: example@example.com</p>
-        <p>Phone: 123-456-7890</p>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+            <p>Phone: <a href="tel:123-456-7890">123-456-7890</a></p>
+            <p>Address: 123 Eyewear St, Vision City, VC 12345</p>
+        </div>
     </section>
     <footer>
-        <p>&copy; 2024 Eyewear Shop</p>
+        <div class="container">
+            <p>&copy; 2024 Eyewear Shop. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
